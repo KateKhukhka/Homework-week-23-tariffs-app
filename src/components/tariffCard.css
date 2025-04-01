@@ -1,0 +1,62 @@
+.content {
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  padding: 30px 20px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid rgb(236, 234, 234) 1px;
+}
+.card_name,
+.card_price {
+  color: white;
+}
+.card_name {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px;
+  filter: brightness(88%);
+}
+.card_price {
+  font-size: 12px;
+  padding: 30px;
+  border-top: solid rgb(236, 234, 234) 1px;
+}
+.price {
+  font-size: 40px;
+}
+.current {
+  display: flex;
+  position: absolute;
+  font-size: 12px;
+}
+.card_speed {
+  background-color: aliceblue;
+  padding: 15px;
+  font-size: 12px;
+  color: grey;
+  border-top: solid rgb(236, 234, 234) 1px;
+}
+.card_remark {
+  background-color: lightgrey;
+  font-size: 12px;
+  padding: 10px 15px;
+  color: grey;
+  border-top: solid rgb(236, 234, 234) 1px;
+}
+.card:nth-of-type(1n) {
+  background-color: rgb(120, 175, 211);
+}
+.card:nth-of-type(2n) {
+  background-color: rgb(140, 201, 140);
+}
+.card:nth-of-type(3n) {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgb(240, 124, 124);
+  scale: 105%;
+}
+.card:nth-of-type(4n) {
+  background-color: rgb(61, 65, 61);
+}
