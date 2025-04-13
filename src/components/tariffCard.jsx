@@ -8,19 +8,7 @@ function Card(props) {
     setSelected(!selected);
   };
   return (
-    <div
-      onClick={handleChange}
-      className={`card ${selected ? "selected" : ""}`}
-      style={
-        selected
-          ? {
-              boxShadow: "0px 5px 15px 0px rgba(0, 0, 0, 0.5)",
-              filter: "brightness(70%)",
-              scale: "105%",
-            }
-          : { filter: "" }
-      }
-    >
+    <div onClick={handleChange} className={`card ${selected ? "selected" : ""}`}>
       <div className="card_name">Безлимитный {price_name}</div>
       <div className="card_price">
         <div className="current">руб</div>
